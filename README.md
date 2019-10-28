@@ -13,4 +13,13 @@ The v8 engine was then taken out of the browser and was then created to run loca
 ___
 ![webImage](./assets/webBrowserExample.png)
 
+      Google Chrome console to declare variables and print them to the console
+___
+## Node.js example (The terminal)
+___
+![nodeImage](./assets/usingNodejs.png)
+___
+
+
+
 
