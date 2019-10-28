@@ -31,6 +31,39 @@ ___
 
 
 # Data types and variables
+      goals for this section:
+* understand let and const
+* understand good variable name declarations
+* how to use console log
+* understand what are data types
+
+1. creating variables
+
+Variables are like an empty box. You are able to assign data into them. They can either be a string or number. Variables are dynamically typed. They can start off as a number, and be changed into a string without any issues
+
+```javascript
+let item1 = "the string"
+      // item1 variable now has the data type string assigned to it
+```
+
+example of changing the variable to another data type
+
+```javascript
+console.log(item1)
+// will print out the current value that was assigned to the variable. which is "the string"
+
+item1 = 9000
+console.log(item1)
+// this will print out a number 9000
+```
+
+variables can be reassigned data of any data type. This is an example of using let keyword. This cannot be done using const. Once the variable has been set, the value cannot be overWritten. It will throw an error
+
+example of const
+
+
+
+let and const are blocked scope variables and can only be used in the section that the code is being created. We will touch more about this when functions are introduced.
 
 
 
