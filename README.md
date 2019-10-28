@@ -1,5 +1,11 @@
 # JavaScript
+## Objectives
+* overview of web browser and Node.js(commandLine)
+* data types and variables
+* practicing declaring variables and printing them to the console (hands on)
+
       JavaScript… it can run on the web browser, or run through the terminal by using Node.js 
+
 
 ## Web browser console vs Node.js
  Before starting, each browser has its own compiler that reads JavaScript code. A well known one is chrome and its compiler called the “V8 engine”. Other compilers are used for different web browsers such as firefox using “SpiderMonkey”. More info [here](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e)
@@ -18,8 +24,13 @@ ___
 ## Node.js example (The terminal)
 ___
 ![nodeImage](./assets/usingNodejs.png)
+
+
+      Using a text editor and node.js to declare variables and print them to the console
 ___
 
+
+# Data types and variables
 
 
 
