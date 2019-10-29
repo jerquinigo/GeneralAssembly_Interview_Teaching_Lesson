@@ -78,34 +78,34 @@ For this lesson we will be using string and numbers data types. Here is a list o
 
 ## More info on data types
 ___
-```
+
 * number for numbers of any kind: integer or floating-point.
-```
+
 ```javascript
 let numberValue = 9000
 ```
-```
+
 * string for strings. A string may have one or more characters, there’s no separate single-character type.
-```
+
 ```javascript
 let str = "this is a string"
 ```
-```
+
 * boolean for true/false. Values can only be either true or false.
-```
+
 ```javascript
 let trueValue = true
 let falseValue = false
 ```
-```
+
 * null for unknown values – a standalone type that has a single value null. the Data is null and can be reassigned a different data type.
-```
+
 ```javascript
 let nullValue = null
 ```
-```
+
 * undefined for unassigned values – a standalone type that has a single value undefined.
-```
+
 ```javascipt
 let undefinedValue= undefined
 ```
