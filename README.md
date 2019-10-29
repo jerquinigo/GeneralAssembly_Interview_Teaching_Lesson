@@ -114,6 +114,44 @@ ___
 
 2. good variables names and standards
 
+      There are two standard way of writing variable names. The two most used are camel casing or snake case
+
+### camelCase example:
+
+```javascript
+let userInput = "please enter text"
+let favoriteFlavor = "vanilla"
+let birthYear = 1991
+```
+camelCase starts off with lowercase letter and the next word is then started off with a capital letter.
+### snake_case example:
+
+```javascript
+let user_input = "please enter text"
+let favorite_flavor = "vanilla"
+let birth_year = 1991
+```
+snake_case starts off with lowercase letter and each word is seperated by underscores. No white spaces for variable name.
+
+
+variable names can contain
+* letters
+* numbers
+* underscores
+* dollar signs ($)
+
+variable names cannot contain 
+* spaces
+* dashes
+* periods
+* capital first letters starting variable names
+
+      - in javascript, it is bad practice to use capital first letters as variable names. Reason for this is for javascript classes start with capital letters. 
+
+
+
+
+
 
 
 
