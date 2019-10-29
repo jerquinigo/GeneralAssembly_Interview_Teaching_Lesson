@@ -146,9 +146,54 @@ variable names cannot contain
 * periods
 * capital first letters starting variable names
 
-      - in javascript, it is bad practice to use capital first letters as variable names. Reason for this is for javascript classes start with capital letters. 
+      - in JavaScript, it is bad practice to use capital first letters as variable names. Reason for this is, JavaScript classes start with capital letters. 
 
+___
+### Good variable names
+```javascript
+let firstName = "Jonathan"
+let favoriteLanguage = "JavaScript"
+let favorite2ndLanguage = "python3"
 
+```
+### bad variable names
+
+```javascript
+let first-name = "jonathan"
+// using dashes will throw an error
+
+let my favorite color = "blue"
+// having spaces will throw an error
+
+let my.js.string.variable = "this is my variable"
+// having periods to seperate the words will throw errors
+
+let Myname = "jonathan"
+// JavaScript will accept this, but is very bad practice because javascript classes use capitals. 
+```
+
+2. console.log() what is it?
+
+console is a javascript class. We use one of the built in native code called log. This allows us to see what is going on in the terminal. Its the only way to see what is going on behind the scenes
+
+```javascipt
+console.log(argument)
+```
+
+inside console.log parenthesis goes the argument. It can be the variable name, it can be a string or number. It will print out values or data entered in the parenthesis into the terminal
+
+examples:
+```javascript
+console.log(2 + 2)
+// will print out 4
+
+console.log("hello world")
+// will print out hello world
+
+let name = "jonathan"
+console.log(name)
+// will print out the value of name, which is the string "jonathan"
+```
 
 
 
