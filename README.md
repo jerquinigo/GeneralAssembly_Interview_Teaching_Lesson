@@ -4,7 +4,7 @@
 * data types and variables
 * practicing declaring variables and printing them to the console (hands on)
 
-      JavaScript… it can run on the web browser, or run through the terminal by using Node.js 
+      JavaScript… it can run on the web browser, or run through the terminal by using Node.js :computer: 
 
 
 ## Web browser console vs Node.js
@@ -37,7 +37,7 @@ ___
 * how to use console log
 * understand what are data types
 
-1. creating variables
+1. let/const and variables
 
 Variables are like an empty box. You are able to assign data into them. They can either be a string or number. Variables are dynamically typed. They can start off as a number, and be changed into a string without any issues
 
@@ -73,7 +73,7 @@ name = "nathalie"
 
 const cannot be reassigned a new piece of data. This is good to use for variables that should not be changed such as a math formula. example would be like "pi". Changing the value of pi would lead to funny math calculations.
 
-For this lesson we will be using string and numbers data types. Here is a list of data types used by JavaScript
+For this lesson we will be using string and numbers data types. Here is a list of other data types used by JavaScript
 
 
 ## More info on data types
@@ -107,9 +107,15 @@ let nullValue = null
 * undefined for unassigned values – a standalone type that has a single value undefined.
 
 ```javascipt
-let undefinedValue= undefined
+let undefValue = undefined
 ```
 ___
+
+
+2. good variables names and standards
+
+
+
 
 
 
