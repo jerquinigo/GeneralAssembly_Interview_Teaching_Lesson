@@ -1,4 +1,6 @@
 # JavaScript
+## For video demonstration of me running through the lesson, please click [here](https://www.youtube.com/watch?v=ZDRsReHO0oE) 
+___
 ## Objectives
 * overview of web browser and Node.js(commandLine)
 * data types and variables
@@ -156,7 +158,7 @@ let favoriteLanguage = "JavaScript"
 let favorite2ndLanguage = "python3"
 
 ```
-### bad variable names
+### Bad variable names
 
 ```javascript
 let first-name = "jonathan"
