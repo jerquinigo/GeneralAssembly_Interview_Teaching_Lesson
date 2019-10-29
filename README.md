@@ -61,9 +61,56 @@ variables can be reassigned data of any data type. This is an example of using l
 
 example of const
 
+```javascript
+const name = "jonathan"
+console.log(name)
+// will print out the string "jonathan"
+
+name = "nathalie"
+// will throw an error
+``` 
+![constExample](./assets/constExample.png)
+
+const cannot be reassigned a new piece of data. This is good to use for variables that should not be changed such as a math formula. example would be like "pi". Changing the value of pi would lead to funny math calculations.
+
+For this lesson we will be using string and numbers data types. Here is a list of data types used by JavaScript
 
 
-let and const are blocked scope variables and can only be used in the section that the code is being created. We will touch more about this when functions are introduced.
+## More info on data types
+___
+```
+* number for numbers of any kind: integer or floating-point.
+```
+```javascript
+let numberValue = 9000
+```
+```
+* string for strings. A string may have one or more characters, there’s no separate single-character type.
+```
+```javascript
+let str = "this is a string"
+```
+```
+* boolean for true/false. Values can only be either true or false.
+```
+```javascript
+let trueValue = true
+let falseValue = false
+```
+```
+* null for unknown values – a standalone type that has a single value null. the Data is null and can be reassigned a different data type.
+```
+```javascript
+let nullValue = null
+```
+```
+* undefined for unassigned values – a standalone type that has a single value undefined.
+```
+```javascipt
+let undefinedValue= undefined
+```
+___
+
 
 
 
